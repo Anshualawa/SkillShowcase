@@ -12,7 +12,7 @@ const Signup = () => {
             <p className="mt-2 text-base text-gray-600">
               Already have an account?
               <button
-                onClick={() => navigate("/signin")}
+                onClick={() => navigate("/skillshowcase/signin")}
                 className="font-medium text-black transition-all duration-200 hover:underline"
               >
                 {" "}

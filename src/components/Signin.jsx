@@ -21,7 +21,7 @@ const Signin = () => {
                 <p class="mt-2 text-sm text-white">
                   Don&#x27;t have an account?
                   <Link
-                    to="/signup"
+                    to="/skillshowcase/signup"
                     title=""
                     class="font-semibold text-white transition-all duration-200 hover:underline"
                   >

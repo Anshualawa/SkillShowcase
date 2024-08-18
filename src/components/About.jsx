@@ -1,8 +1,7 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const About = () => {
-  const navigate = useNavigate();
   return (
     <div>
       <div className="mx-auto max-w-7xl px-4">
@@ -247,13 +246,13 @@ const About = () => {
               people and foster a culture that empowers you to do your best
               work.
             </p>
-            <button
-              onClick={() => navigate("/signup")}
+            <Link
+              to={"/skillshowcase/signup"}
               type="button"
               className="rounded-md bg-black px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-black/80 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-black"
             >
               Join Now
-            </button>
+            </Link>
           </div>
           <div className="md:mt-o mt-10 w-full">
             <img

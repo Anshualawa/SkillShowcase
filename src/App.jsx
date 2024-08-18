@@ -9,14 +9,14 @@ import Signup from "./components/Signup";
 import Signin from "./components/Signin";
 import McqLayout from "./components/McqLayout";
 import Subjects from "./components/Subjects";
-// import SplashScreen from "./components/SplashScreen";
+import SplashScreen from "./components/SplashScreen";
 
 export default function App() {
   return (
     <Router>
       <Routes>
-        {/* <Route path="/" element={<SplashScreen />} /> */}
-        <Route path="/skillshowcase" element={<Layout />}>
+        <Route path="/" element={<SplashScreen />} />
+        <Route path="skillshowcase" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="about" element={<About />} />
           <Route path="contactus" element={<Contactus />} />
